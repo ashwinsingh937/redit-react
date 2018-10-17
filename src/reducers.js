@@ -7,7 +7,6 @@ import {
 
 import { combineReducers } from 'redux'
 
-// Reducer handling the currently selected subreddit
 const selectedSubreddit = (state = 'reactjs', action) => {
     switch (action.type) {
         case SELECT_SUBREDDIT:
